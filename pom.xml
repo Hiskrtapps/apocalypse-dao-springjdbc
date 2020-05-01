@@ -57,7 +57,7 @@
     <dependencies>
         <dependency>
             <groupId>io.github.hiskrtapps</groupId>
-            <artifactId>dao</artifactId>
+            <artifactId>apocalypse-dao-api</artifactId>
             <version>0.0.26</version>
         </dependency>
         <dependency>
