@@ -4,13 +4,13 @@
 
 package com.github.hiskrtapps.apocalypse.dao.springjdbc.tracing;
 
-import com.ceppi.apocalypse.dao.Dao;
-import com.ceppi.apocalypse.dao.Entity;
-import com.ceppi.apocalypse.dao.paging.Page;
-import com.ceppi.apocalypse.dao.paging.PageFind;
-import com.ceppi.apocalypse.dao.statements.Find;
-import com.ceppi.apocalypse.dao.statements.Modification;
-import com.ceppi.apocalypse.dao.statements.Statement;
+import io.github.hiskrtapps.apocalypse.dao.api.Dao;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.Page;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PageFind;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Find;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Modification;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Statement;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -137,7 +137,7 @@ public final class StatementLogger {
   /**
    * jointpoint for any Modification statement
    */
-  @Around("execution(public * com.ceppi.apocalypse.Dao.modify(..)) && args(modification)")
+  @Around("execution(public * io.github.hiskrtapps.apocalypse.dao.api.modify(..)) && args(modification)")
   public Object log(final ProceedingJoinPoint pjp, final Modification modification) throws Throwable {
     return log(pjp, modification, modification.valuesMaps());
   }
@@ -145,7 +145,7 @@ public final class StatementLogger {
   /**
    * jointpoint for any Find statement
    */
-  @Around("execution(public * com.ceppi.apocalypse.Dao.find(..)) && args(find)")
+  @Around("execution(public * io.github.hiskrtapps.apocalypse.dao.api.find(..)) && args(find)")
   public Object log(final ProceedingJoinPoint pjp, final Find find) throws Throwable {
     return log(pjp, find, find.valuesMap());
   }
@@ -153,7 +153,7 @@ public final class StatementLogger {
   /**
    * jointpoint for any paginated Find statement
    */
-  @Around("execution(public * com.ceppi.apocalypse.Dao.find(..)) && args(pageFind)")
+  @Around("execution(public * io.github.hiskrtapps.apocalypse.dao.api.find(..)) && args(pageFind)")
   public Object log(final ProceedingJoinPoint pjp, final PageFind pageFind) throws Throwable {
     return log(pjp, pageFind, pageFind.valuesMap());
   }

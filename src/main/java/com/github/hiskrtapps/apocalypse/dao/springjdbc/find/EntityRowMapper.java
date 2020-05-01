@@ -9,8 +9,8 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
-import com.ceppi.apocalypse.dao.Entity;
-import com.ceppi.apocalypse.dao.impl.entitymetadata.EntityDataRegistry;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.impl.entitymetadata.EntityDataRegistry;
 import org.springframework.beans.BeanUtils;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.JdbcUtils;

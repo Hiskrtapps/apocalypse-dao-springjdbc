@@ -12,13 +12,13 @@ import java.util.Arrays;
 
 import javax.persistence.Column;
 
-import com.ceppi.apocalypse.dao.criteria.And;
-import com.ceppi.apocalypse.dao.criteria.Criteria;
-import com.ceppi.apocalypse.dao.impl.entitymetadata.EntityMetadata;
-import com.ceppi.apocalypse.dao.impl.entitymetadata.EntityMetadataImpl;
-import com.ceppi.apocalypse.dao.impl.entitymetadata.statements.EntityMetadataFind;
-import com.ceppi.apocalypse.dao.paging.Order;
-import com.ceppi.apocalypse.dao.statements.Find;
+import io.github.hiskrtapps.apocalypse.dao.api.criteria.And;
+import io.github.hiskrtapps.apocalypse.dao.api.criteria.Criteria;
+import io.github.hiskrtapps.apocalypse.dao.api.impl.entitymetadata.EntityMetadata;
+import io.github.hiskrtapps.apocalypse.dao.api.impl.entitymetadata.EntityMetadataImpl;
+import io.github.hiskrtapps.apocalypse.dao.api.impl.entitymetadata.statements.EntityMetadataFind;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.Order;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Find;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.TestCompleteMockEntity;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.statements.paging.PaginationByRowNumber;
 import org.junit.Assert;

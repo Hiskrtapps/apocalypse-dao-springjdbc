@@ -4,11 +4,11 @@
 
 package com.github.hiskrtapps.apocalypse.dao.springjdbc.statements.paging;
 
-import com.ceppi.apocalypse.dao.Entity;
-import com.ceppi.apocalypse.dao.paging.Order;
-import com.ceppi.apocalypse.dao.paging.PageFind;
-import com.ceppi.apocalypse.dao.paging.PagedResult;
-import com.ceppi.apocalypse.dao.statements.Find;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.Order;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PageFind;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PagedResult;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Find;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.RowMapper;

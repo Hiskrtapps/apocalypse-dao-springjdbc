@@ -11,17 +11,17 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
-import com.ceppi.apocalypse.dao.Dao;
-import com.ceppi.apocalypse.dao.Entity;
-import com.ceppi.apocalypse.dao.impl.entitymetadata.EntityMetadataDaoImpl;
-import com.ceppi.apocalypse.dao.paging.Order;
-import com.ceppi.apocalypse.dao.paging.Page;
-import com.ceppi.apocalypse.dao.paging.PageFind;
-import com.ceppi.apocalypse.dao.paging.PagedResult;
+import io.github.hiskrtapps.apocalypse.dao.api.Dao;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.impl.entitymetadata.EntityMetadataDaoImpl;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.Order;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.Page;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PageFind;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PagedResult;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.find.EntityRowMapper;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.statements.paging.PaginationByRowNumber;
-import com.ceppi.apocalypse.dao.statements.Find;
-import com.ceppi.apocalypse.dao.statements.Modification;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Find;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Modification;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

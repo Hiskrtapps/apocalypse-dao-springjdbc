@@ -4,9 +4,9 @@
 
 package com.github.hiskrtapps.apocalypse.dao.springjdbc.statements;
 
-import com.ceppi.apocalypse.dao.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.statements.paging.PaginationByRowNumber;
-import com.ceppi.apocalypse.dao.statements.Find;
+import io.github.hiskrtapps.apocalypse.dao.api.statements.Find;
 
 import java.util.Map;
 

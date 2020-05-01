@@ -7,7 +7,7 @@ package com.github.hiskrtapps.apocalypse.dao.springjdbc;
 import java.util.Arrays;
 import java.util.Date;
 
-import com.ceppi.apocalypse.dao.Entity;
+import io.github.hiskrtapps.apocalypse.dao.api.Entity;
 
 /**
  *

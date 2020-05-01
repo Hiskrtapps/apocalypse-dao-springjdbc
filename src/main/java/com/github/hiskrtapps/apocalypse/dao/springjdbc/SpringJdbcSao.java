@@ -9,7 +9,7 @@ import static java.lang.String.format;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import com.ceppi.apocalypse.dao.Sao;
+import io.github.hiskrtapps.apocalypse.dao.api.Sao;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 /**

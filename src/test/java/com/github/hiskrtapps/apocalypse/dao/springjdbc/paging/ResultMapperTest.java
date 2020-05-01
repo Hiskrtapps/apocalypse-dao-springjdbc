@@ -26,7 +26,7 @@ import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Map;
 
-import com.ceppi.apocalypse.dao.paging.PagedResult;
+import io.github.hiskrtapps.apocalypse.dao.api.paging.PagedResult;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.TestCompleteMockEntity;
 import com.github.hiskrtapps.apocalypse.dao.springjdbc.statements.paging.PaginationByRowNumber;
 import org.junit.Assert;
