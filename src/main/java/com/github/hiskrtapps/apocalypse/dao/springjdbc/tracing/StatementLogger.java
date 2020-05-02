@@ -103,7 +103,7 @@ public final class StatementLogger {
    */
   private static final Set<String> INCLUDES =
           Collections.singleton(
-                  "com.lcp"
+                  "io.github"
           );
 
   /**
