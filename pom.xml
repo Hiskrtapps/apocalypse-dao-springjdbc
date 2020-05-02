@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.hiskrtapps</groupId>
-    <artifactId>apocalypse-dao-api</artifactId>
+    <artifactId>apocalypse-dao-springjdbc</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
