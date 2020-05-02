@@ -71,7 +71,6 @@ import static org.apache.commons.lang3.StringUtils.EMPTY;
  * As in some cases the log itself can be time consuming it is activated only
  * when log debug mode is activated
  *
- *
  */
 @Aspect
 @Named
