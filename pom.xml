@@ -5,7 +5,7 @@
 
     <groupId>io.github.hiskrtapps</groupId>
     <artifactId>apocalypse-dao-springjdbc</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
     <description>Apocalypse Dao SpringJdbc implementation library</description>
@@ -30,7 +30,7 @@
         <!--suppress UnresolvedMavenProperty -->
         <developerConnection>scm:git:http://${GIT_USERNAME}:${GIT_PASSWORD}!@github.com/hiskrtapps/apocalypse-dao-springjdbc.git</developerConnection>
         <url>https://github.com/hiskrtapps/apocalypse-dao-springjdbc</url>
-        <tag>HEAD</tag>
+        <tag>0.0.2</tag>
     </scm>
 
     <distributionManagement>
